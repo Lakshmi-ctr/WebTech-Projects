@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div h1{
+            background-color: powderblue;
+        }
+        div>h2{
+            background-color: powderblue;
+        }
+        div+h3{
+            background-color: powderblue;
+        }
+        div~h4{
+            background-color: powderblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Combinaton Selector</h1>
+    <h1>Decendent:</h1>
+    <Div>
+        <h1>Welcome</h1>
+        <h1>Hello</h1>
+        <span>
+            <h1>Hii</h1>
+        </span>
+    </Div>
+    <h1>Child:</h1>
+    <div>
+        <h2>Welcome</h2>
+        <h2>Hello</h2>
+        <span>
+            <h2>Hii</h2>
+        </span>
+    </Div>
+    <h1>Adjacent Sibling:</h1>
+    <div>
+        <h3>Welcome</h3>
+        <h3>Hello</h3>
+        <span>
+            <h3>Hii</h3>
+        </span>
+    </Div>
+    <h3>Hiiii</h3>
+    <h3>hellooo</h3>
+    <h1>General Sibling:</h1>
+    <div>
+        <h4>Welcome</h4>
+        <h4>Hello</h4>
+        <span>
+            <h4>Hii</h4>
+        </span>
+    </Div>
+    <h4>Hiiii</h4>
+    <h4>Helloooo</h4>
+</body>
+</html>

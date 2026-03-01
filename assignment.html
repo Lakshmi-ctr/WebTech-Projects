@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family:Arial, Helvetica, sans-serif;
+            
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+
+        }
+        #nav{
+            padding: 5px;
+            height: 400px;
+            width: 85vw;
+            border: 2px solid black;
+            background-color: white;
+            
+        }
+        #block1,#block2,#block3{
+            height: 117.9px;
+            /* border: 2px solid red; */
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+        }
+        #nav #brand1{
+            display: flex;
+            justify-content: center;
+            height: 117.7px;
+            width: 150px;
+            align-items: center;
+            /* border: 2px solid blue; */
+        }
+        #menu1{
+            height: 117.8px;
+            width: 300px;
+            /* border: 2px solid green; */
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-right: 268px;
+
+        }
+        #brand1{
+            font-size: 35px;
+            font-family:Arial, Helvetica, sans-serif;
+            
+        }
+        #menu1 a{
+            font-size:20px ;
+            text-decoration: none;
+            font-weight:600;
+        }
+        #search1{
+            height: 117.8px;
+            /* border: 2px solid rgb(243, 41, 199); */
+            width: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        #search1 #input1{
+            padding: 23px;
+            width: 260px;
+            border-radius: 8px;
+        }
+        
+        #input1{
+            border: 1px solid grey;
+        }
+        #input1::placeholder{
+            font-size: 20px;
+            color: rgb(23, 22, 22);
+        }
+        #btn1{
+            height: 60px;
+            width: 120px;
+            border: 1px solid rgb(200, 207, 207);
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            margin-left: 5px;
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <div id="block1" style="background-color: rgba(15, 14, 14, 0.98);">
+            <div id="brand1" style="color: white;">Brand</div>
+            <div id="menu1">
+                <a href="" style="color: white;">Home</a>
+                <a href="" style="color: grey;">About</a>
+                <a href="" style="color: grey;">Products</a>
+
+            </div>
+            <div id="search1">
+             <input id="input1" type="text" placeholder="Search" >
+            </div>
+            <div id="btn1">
+                Search
+            </div>
+        </div>
+        <br>
+        <div id="block1" style="background-color:blue;">
+            <div id="brand1" style="color: white; ">Brand</div>
+            <div id="menu1">
+                <a href="" style="color: white;">Home</a>
+                <a href="" style="color: grey;">About</a>
+                <a href="" style="color: grey;">Products</a>
+
+            </div>
+            <div id="search1">
+             <input id="input1" type="text" placeholder="Search" >
+            </div>
+            <div id="btn1">
+                Search
+            </div>
+        </div>
+        <br>
+        <div id="block1" style="background-color: rgba(151, 244, 229, 0.794);">
+            <div id="brand1" style="color: rgb(7, 4, 4); ">Brand</div>
+            <div id="menu1">
+                <a href="" style="color: rgb(5, 5, 5);">Home</a>
+                <a href="" style="color: grey;">About</a>
+                <a href="" style="color: grey;">Products</a>
+
+            </div>
+            <div id="search1">
+             <input id="input1" type="text" placeholder="Search" >
+            </div>
+            <div id="btn1" style="border: 1px solid blue; color: blue;">
+                Search
+            </div>
+        </div>
+    </div>
+</body>
+</html>
